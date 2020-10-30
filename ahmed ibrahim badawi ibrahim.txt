@@ -1,3 +1,8 @@
 -create folder day2-rep-vc
 -ceate remote repo called day2-rep-vc
 -git init
+-git add .
+-git commit -m "init proj"
+-git remote add origin https://github.com/Ahmedbadawi127/day2-rep-vc.git
+-git push -u origin master
+
