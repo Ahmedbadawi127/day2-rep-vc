@@ -1,3 +1,4 @@
+
 -create folder day2-rep-vc
 -ceate remote repo called day2-rep-vc
 -git init
@@ -7,7 +8,8 @@
 -git push -u origin master
 
 -----
-from branch edit
+from branch edit made PR from lap 1 :----
+
 -git checkout -b edit
 -git add .
 -git commti -m "first edit"
@@ -19,4 +21,38 @@ if no conflicts click merge & confirm
 
 -git checkout master
 -git pull
+
+---------
+continue lap 2 :-----
+
+git checkout -b dev
+touch ahmed-ibrahim-badawi-dev.txt
+git add .
+git commit -m "add file dev"
+git push --set-upstream origin dev
+
+git checkout master
+git checkout -b test
+git touch ahmed-ibrahim-badawi-test.txt
+git add .
+git commit -m "add file test"
+git push --set-upstream origin test
+
+git checkout master
+git megre dev
+git merge test
+edit ahmed ibrahim badawi ubrahim
+git add .
+git commit -m "last edit steps main file"
+git push
+
+
+how to remove locally branches :--
+if it has remote branch
+$ git branch -d branch_name
+if it only has local one
+$ git branch -D branch_name
+
+how to remove remotly branches :--
+git push origin --delete branch_name
 
