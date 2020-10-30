@@ -9,4 +9,12 @@
 -----
 from branch edit
 -git checkout -b edit
-- git push -upsteam
+-git add .
+-git commti -m "first edit"
+-git push --set-upstream origin edit
+
+- go github site > pull requests > new pull request >
+chooce edit branch > create pr > leave comment and click ceate >
+if no conflicts click merge & confirm
+
+git checkout master
