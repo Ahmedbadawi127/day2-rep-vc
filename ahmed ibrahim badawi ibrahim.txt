@@ -6,3 +6,7 @@
 -git remote add origin https://github.com/Ahmedbadawi127/day2-rep-vc.git
 -git push -u origin master
 
+-----
+from branch edit
+-git checkout -b edit
+- git push -upsteam
