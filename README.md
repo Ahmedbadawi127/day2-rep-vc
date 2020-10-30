@@ -16,4 +16,4 @@
 
 
 ## here is my image
-![This is a alt text.](/image/img.png "imaaaaage.")
+![This is a alt text.](/img/img.png "imaaaaage.")
