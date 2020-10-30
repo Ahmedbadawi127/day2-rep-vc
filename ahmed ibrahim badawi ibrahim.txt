@@ -1,0 +1,3 @@
+-create folder day2-rep-vc
+-ceate remote repo called day2-rep-vc
+-git init
