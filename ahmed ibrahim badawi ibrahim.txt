@@ -56,3 +56,28 @@ $ git branch -D branch_name
 how to remove remotly branches :--
 git push origin --delete branch_name
 
+
+----------------
+tages :---
+
+
+git tag v1.4
+
+git push --tags
+
+list tages locally
+git tag -n
+
+delete tage locally
+git tag -d tage_name
+
+delete tages remotely
+git push --delete origin v5.0
+
+-----------------
+rebase :-
+another way for merge
+instead of megring branches into base one by one
+rebase make it on one step line
+
+END .....
